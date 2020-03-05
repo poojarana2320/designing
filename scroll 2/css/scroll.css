@@ -1,0 +1,9 @@
+.scroll_btn{
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	color: #1abc9c;
+	font-size: 30px;
+	display: none;
+}
+.img-main {background-size:cover; background-position:50% 50%; background-repeat:no-repeat; height:500px;}

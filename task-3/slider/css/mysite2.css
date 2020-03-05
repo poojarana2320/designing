@@ -1,0 +1,172 @@
+.one{
+	padding: 10px 20px;
+	margin-bottom: 40px;
+	text-align: center;
+	display: inline-block;
+
+    /*font-family: 'Roboto', sans-serif;*/
+
+    font-family: 'Charm', cursive;
+	
+}
+.two
+{
+	padding-bottom: 40px;
+}
+.three
+{
+	padding-top: 40px;	
+}
+.img1
+{
+	width: 100%;
+	display: inline-block;
+	
+}
+.image1
+{
+	width:100%;
+}
+h1
+{
+	font-weight: bold;
+
+}
+
+.title
+{
+	color: White; text-align: center; font-family: 'Roboto', sans-serif;
+	margin: 0px;
+}
+.img2
+{
+	background-image: url('../images/nature.png');
+	background-repeat: no-repeat;
+	padding: 40px 0px;
+	
+}
+.p1
+{
+	color: white;
+}
+
+.img3
+{
+	float: left;
+	width: 32.63%
+}
+.img4
+{
+	float: left;
+	width: 43%;
+
+}
+
+
+
+.des
+{
+	float: left;
+	padding-left: 15px;
+	width: 57%;
+	text-align:left;
+}
+
+.image3
+{
+	width:100%;
+}
+
+
+.text
+{
+	/*text-align: center;*/
+	color: white;
+	padding-left:40px;
+	font-family: 'Charm', cursive;
+	width: 67.37%;
+	float: left;
+
+}
+.image4
+{
+	width:100%;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .image3 {
+    display:none;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .img3 {
+    width: 100%;
+  }
+  .image3{
+  	width:40%;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .img4 {
+    width: 100%;
+  }
+  .image4{
+  	width:40%;
+  }
+}
+.img5
+{
+	width:100%;
+}
+.l1
+{
+	position: relative;
+}
+.he
+{
+	position: absolute;
+	font-size: 45px;
+	float: left;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	font-family: 'Happy Monkey', cursive;
+	color: red;
+}
+.border
+{
+
+  border-bottom: 3px solid red;
+  margin-bottom:40px;
+}
+.foo
+{
+	font-size: 15px;
+
+	text-align: center;
+}
+
+.list1 ul
+{
+	width: 100%;
+	
+}
+.list1 li::before
+{
+	width: 8px;
+	height: 8px;	
+	border-radius: 50%;
+	background-color: red;
+	content: " ";
+	position: absolute;
+	top:11px;
+	left: 0px;
+}
+.list1 li
+{
+	position: relative;
+	list-style:none; 
+	line-height: 30px;
+	font-size: 15px;
+	padding-left: 23px;
+}

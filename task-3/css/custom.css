@@ -1,0 +1,51 @@
+.my-slider1 .slick-prev{
+	position: absolute;
+	left: 0%;
+	top:50%;
+	z-index: 1;
+	transform: translate(-50,-50);
+}
+.my-slider1 .slick-next{
+	position: absolute;
+	right: 0%;
+	top:50%;
+	z-index: 1;
+	transform: translate(-50,-50);
+}
+.slick-dots .slick-active
+{
+	background-color: white;
+}
+.slick-dots{
+	width: 100%;
+	text-align: center;
+	padding: 0px;
+	bottom: 40px;
+	position: absolute;
+}
+ .slick-dots li button{
+	display: none;
+}
+.slick-dots li{
+	display: inline-block;
+	list-style:none;
+	width:10px;
+	height: 10px;
+	margin:0px 5px;
+	background-color: red;
+	border-radius: 50%;
+}
+.my-slider2 .slick-prev{
+	position: absolute;
+	left: 0%;
+	top:50%;
+	z-index: 1;
+	transform: translate(-50,-50);
+}
+.my-slider2 .slick-next{
+	position: absolute;
+	right: 0%;
+	top:50%;
+	z-index: 1;
+	transform: translate(-50,-50);
+}

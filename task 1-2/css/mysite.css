@@ -1,0 +1,66 @@
+.one
+{
+	background: lightblue;
+	padding: 10px 20px;
+	overflow: auto;
+	max-height: 235px;
+	min-height: 235px;
+	margin: 5px 0px;
+	text-align: center;
+}
+h1
+{
+	text-align: center;
+}
+
+.img1
+{
+	float: left;
+	padding: 30px 15px 15px 0px;
+	width: 20%
+
+}
+.btn1{
+	width: 20%;
+	margin: 10px auto;
+	display: block;
+}
+
+.title
+{
+	padding: 15px;
+	width: 80%
+}
+.des
+{
+	overflow: auto;
+}
+
+.img2
+{
+	width: 20%;
+	margin: auto auto;
+	display: inline-block;
+}
+
+
+.anchor {
+  color: yellow;
+  text-decoration: underline;
+}
+
+
+
+
+/* mouse over link */
+.anchor:hover {
+  color: green;
+  text-decoration: none;
+}
+
+.foo
+{
+	font-size: 15px;
+
+	text-align: center;
+}
